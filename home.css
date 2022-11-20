@@ -1,0 +1,230 @@
+body{
+    max-width: 480px;
+    background-color: rgb(248, 248, 248);
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 130px;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.144);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.h-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#b-menu {
+    width: 55px;
+    height: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: pink;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
+}
+
+.h-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+#pesquisa {
+    width: 365px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
+}
+
+#b-pesquisa {
+    width: 55px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: pink;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txt {
+    padding-right: 280px;
+    font-size: 150%;
+}
+
+.quarto-familia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quarto-dstq {
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.336);
+}
+
+.info-qrt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 400px;
+}
+
+#txt-quarto-dstq {
+    margin: 0%;
+    margin-top: 5px;
+    font-size: 90%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#txt-dsc {
+    font-size: 80%;
+    padding-right: 120px;
+    margin-left: 50px;
+    color: rgb(66, 66, 66);
+}
+
+#star {
+    width: 20px;
+    height: 20px;
+    margin-left: 125px;
+}
+
+#wifi {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#cadeado {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.quartos-quartos {
+    display: flex;
+    flex-direction: row;
+}
+
+#quarto-img {
+    width: 175px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.quarto-2 {
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#txt-info1 {
+    margin: 0%;
+    font-size: 90%;
+}
+
+#txt-info2 {
+    margin: 0%;
+    font-size: 80%;
+    margin-top: 2px;
+    margin-left: 70px;
+}
+
+#txt-info3 {
+    margin: 0%;
+    font-size: 90%;
+    color: rgb(66, 66, 66);
+}
+
+
+#estrela {
+
+    width: 15px;
+}
+
+#txt-categoria{
+    padding-right: 240px;
+    font-size: 150%;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
+
+#cat {
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    border: 0px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
+}
+
+#icon {
+    width: 25px;
+    height: 25px;
+}
+
+#cat-pin {
+    width: 35px;
+    height: 35px;  
+}
+
+#cat-graphic {
+    width: 40px;
+    height: 40px;
+}
+
+#cat-medal {
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+}
+
+#cat-monitor {
+    width: 45px;
+    height: 45px;
+}
+
+#icon-menu {
+    height: 25px;
+    width: 25px;
+}
+
+#icon-pesquisa {
+    height: 25px;
+    width: 25px;
+}
