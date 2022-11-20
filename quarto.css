@@ -8,7 +8,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 70px;
-    background-color: pink;
+    background-color: white;
 }
 
 #b-back {
@@ -30,7 +30,7 @@ header {
 #b-heart {
     width: 55px;
     height: 35px;
-    background-color: white;
+    background-color: pink;
     border: 0px;
     border-radius: 10px;
     margin-left: 265px;
@@ -46,7 +46,7 @@ header {
 #b-menu {
     width: 55px;
     height: 35px;
-    background-color: white;
+    background-color: pink;
     border: 0px;
     border-radius: 10px;
     margin-right: 15px;
@@ -67,6 +67,13 @@ header {
 }
 
 .area-reserva {
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 40px;
+    box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
+}
+
+.info1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,12 +83,13 @@ header {
 #txt-ti {
     margin: 0%;
     margin-left: 15px;
+    width: 300px;
 }
 
 #icon-star {
     width: 20px;
     height: 20px;
-    margin-left: 130px;
+
 }
 
 #icon-wifi {
@@ -99,13 +107,17 @@ header {
 .desc {
     margin-left: 15px;
     color: grey;
-
 }
 
+.desc h4 {
+    padding-right: 10px;
+}
+
+
 #mapa {
-    width: 450px;
+    width: 370px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.226);
 }
 
@@ -128,9 +140,10 @@ header {
 }
 
 #txt-reserva {
-    margin: 0%;
     text-align: center;
-    margin-top: 13px;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 15px;
     color: rgb(0, 87, 0);
 }
 
