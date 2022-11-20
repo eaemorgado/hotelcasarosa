@@ -7,9 +7,9 @@ body{
 
 header {
     background-color: white;
-    height: 130px;
+    height: 200px;
     box-shadow: 0px 8px 10px rgba(134, 134, 134, 0.144);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 .h-top {
@@ -21,13 +21,30 @@ header {
 #logo {
     margin-left: 20px;
     margin-top: 10px;
+    height: 80px;
 }
+
+#login {
+    width: 45px;
+    height: 45px;
+    border: 0px;
+    border-radius: 60px;
+    background-color: pink;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#user {
+    width: 32px;
+    height: 32px;
+}
+
 
 #b-menu {
     width: 55px;
     height: 35px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 25px;
     border-radius: 10px;
     border: 0px;
     background-color: pink;
